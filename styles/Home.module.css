@@ -16,6 +16,7 @@
   top: 22.5%;
   left: 7%;
 }
+
 .cardBack {
   position: absolute;
   z-index: 2;
@@ -29,6 +30,7 @@
   top: 24.5%;
   left: 9%;
 }
+
 .cardNumber {
   position: absolute;
   z-index: 3;
@@ -40,6 +42,7 @@
   /* background-color: #fff; */
   color: white;
 }
+
 .cardName {
   position: absolute;
   z-index: 3;
@@ -50,7 +53,7 @@
   color: white;
 }
 
-.cardExpire{
+.cardExpire {
   position: absolute;
   z-index: 3;
   top: 38.5%;
@@ -58,4 +61,42 @@
   width: 400px;
   /* background-color: #fff; */
   color: white;
+}
+
+.cardFrontImage {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 480px) {
+  .cardFront {
+    z-index: 3;
+    top: 16.5%;
+    left: 4%;
+    right: 10%;
+  }
+
+  .cardBack {
+    top: 3.5%;
+    left: 9%;
+    right: 2%;
+  }
+
+  .cardLogo {
+    z-index: 4;
+    top: 18.5%;
+  }
+
+  .cardNumber {
+    top: 27.9%;
+  }
+
+  .cardName {
+    top: 33.5%;
+  }
+
+  .cardExpire {
+    top: 33.5%;
+    left: 75%;
+  }
 }
