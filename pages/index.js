@@ -32,6 +32,15 @@ export default function Home() {
           alt="some image"
         />
       </div>
+      <div className={styles.cardNumber}>
+        <h2>9534 3234 5342 2453</h2>
+      </div>
+      <div className={styles.cardName}>
+        <h4>Akiode Timothy</h4>
+      </div>
+      <div className={styles.cardExpire}>
+        <h4>10/23</h4>
+      </div>
     </div>
   )
 }

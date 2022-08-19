@@ -24,3 +24,33 @@
   top: 24.5%;
   left: 13%;
 }
+.cardNumber {
+  position: absolute;
+  z-index: 3;
+  top: 33.5%;
+  left: 13%;
+  width: 300px;
+  font-family: 'Space Grotesk';
+  height: 50px;
+  /* background-color: #fff; */
+  color: white;
+}
+.cardName {
+  position: absolute;
+  z-index: 3;
+  top: 38.5%;
+  left: 13%;
+  width: 400px;
+  /* background-color: #fff; */
+  color: white;
+}
+
+.cardExpire{
+  position: absolute;
+  z-index: 3;
+  top: 38.5%;
+  left: 45%;
+  width: 400px;
+  /* background-color: #fff; */
+  color: white;
+}
