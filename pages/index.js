@@ -32,6 +32,15 @@ export default function Home() {
           alt="some image"
         />
       </div>
+      <div className={styles.cardBack}>
+        <Image
+          src="/images/bg-card-back.png"
+          width={500}
+          height={250}
+          quality={100}
+          alt="some image"
+        />
+      </div>
       <div className={styles.cardNumber}>
         <h2>9534 3234 5342 2453</h2>
       </div>
